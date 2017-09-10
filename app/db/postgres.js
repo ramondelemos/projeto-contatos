@@ -11,11 +11,12 @@ var options = {
 var pgp = require('pg-promise')(options);
 
 var config = {
-    host: '192.168.33.10',
+    host: 'ec2-107-21-223-110.compute-1.amazonaws.com',
     port: 5432,
-    database: 'pilotodb',
-    user: 'piloto',
-    password: 'root007'
+    database: 'd3nq2k3djeqgt0',
+    user: 'tqzkkpasyumrmb',
+    password: 'Z1YLTIFJsUHAfPHQOgvJJxnZxP',
+    ssl: true
 };
 
 var db = pgp(config); // database instance;
