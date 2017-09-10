@@ -8,7 +8,7 @@ module.exports = function (port, address) {
     var app = express();
 
     app.set('port', port);
-    app.set('address', address);
+    //app.set('address', address);
 
     app.use(bodyParser.urlencoded({extended: true}));
     app.use(bodyParser.json());
