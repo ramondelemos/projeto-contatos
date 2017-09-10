@@ -2,10 +2,10 @@
   "name": "piloto-backend",
   "version": "1.0.0",
   "description": "Treinamento de Angular",
-  "main": "cluster.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node cluster.js backend"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
