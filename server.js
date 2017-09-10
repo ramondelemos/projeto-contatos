@@ -16,5 +16,5 @@ var app = require("./config/express")(port, address);
 require('./config/database')();
 
 http.createServer(app).listen(app.get('port'), function () {
-    console.log('Express Server escutando na porta ' + app.get('port'));
+    console.log('Express Server escutando na porta ' + app.get('port') + ' e IP ' + app.get('address'));
 });
