@@ -1,0 +1,32 @@
+{
+  "name": "piloto-backend",
+  "version": "1.0.0",
+  "description": "Treinamento de Angular",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cluster.js backend"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://ramondelemos@bitbucket.org/startup1-0/piloto-backend.git"
+  },
+  "bugs": {
+    "url": "https://ramondelemos@bitbucket.org/startup1-0/piloto-backend/issues"
+  },
+  "homepage": "https://ramondelemos@bitbucket.org/startup1-0/piloto-backend",
+  "dependencies": {
+    "bluebird": "^3.0.2",
+    "body-parser": "^1.6.7",
+    "express": "^4.8.8",
+    "express-load": "^1.1.15",
+    "express-session": "^1.12.0",
+    "helmet": "^0.14.0",
+    "method-override": "^2.1.3",
+    "node-uuid": "^1.4.3",
+    "pg-promise": "^2.2.4",
+    "seaport": "^2.0.9"
+  }
+}
